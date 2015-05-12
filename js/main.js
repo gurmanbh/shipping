@@ -4,8 +4,8 @@
 		return s[0].toUpperCase() + s.slice(1);
 	}
 
-	var width = 1080,
-	    height = 800,
+	var width = 1200,
+	    height = 1000,
 	    root;
 
 	var force = d3.layout.force()

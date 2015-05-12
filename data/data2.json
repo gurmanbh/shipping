@@ -1,249 +1,430 @@
-{ "name": "The Prestige",
+{ 
+  "name": "The Prestige",
   "type": "ship",
   "size": 3000,
   "desc": "Prestige is the ship that sank at the coast of Spain in 19xx",
   "children":
-[
-  {
-    "name": "Mare Shipping",
-    "type": "company",
-    "desc": "Mare Shipping was the registered owner of the Prestige since 19xx"
-  },
-  {
-  "name": "Universe Maritime",
-  "type": "company",
-  "desc": "Universe Maritime was the group owner of the Prestige in 19xx and then again when the ship sank",
-  "children": [
-    {
-      "name": "George Alevizos",
-      "type": "person",
-      "desc": "He was the technical director at Universe."
-    },
-    {
-      "name": "Aquatic Princess Shipping",
-      "type": "company"
-    },
-    {
-      "name": "Arcadia Navigation Inc",
-      "type": "company"
-    },
-    {
-      "name": "Aroania Shipping Co Ltd",
-      "type": "company"
-    },
-    {
-      "name": "Calisto Holdings Inc",
-      "type": "company"
-    },
-    {
-      "name": "Freedom Navigation",
-      "type": "company"
-    },
-    {
-      "name": "Gardenia Shipping",
-      "type": "company"
-    },
-    {
-      "name": "Global Seatrade Shipping",
-      "type": "company"
-    },
-    {
-      "name": "Jupiter Shipping",
-      "type": "company"
-    },
-    {
-      "name": "Lancer",
-      "type": "company"
-    },
-    {
-      "name": "Malone Navigation",
-      "type": "company"
-    },
-    {
-      "name": "Mare Shipping",
-      "type": "company"
-    },
-    {
-      "name": "Nakina Marine",
-      "type": "company"
-    },
-    {
-      "name": "Nostos",
-      "type": "company"
-    },
-    {
-      "name": "Palime Navigation",
-      "type": "company"
-    },
-    {
-      "name": "Sea Grace",
-      "type": "company"
-    },
-    {
-      "name": "Thunder Maritime",
-      "type": "company"
-    },
-    {
-      "name": "Vista Maritime",
-      "type": "company"
-    }
-    
-  ]
-  
-  },
-{
-  "name": "Laurel Sea Transport",
-  "type": "company",
-  "size":6000,
-  "desc": "The company is also known as Laurel Sea Transport Naftiki Eteria",
-  "children": [
-              {
-                "name": "Coral Sea Shipping Co Ltd",
-                "type": "company"
-              },
-
-        {
-                "name": "Cyclades Sea Transport Ltd",
-                "type": "company"
-              },
-
-        {
-          "name": "Valdoro Compania Naviera SA",
-          "type": "company"
-        },
-        {
-          "name": "Marinsigne Armadora SA",
-          "type": "company"
-        },
-        {
-          "name": "Neptunea Astro Oceanico SA",
-          "type": "company"
-        },
-        {
-          "name": "Oceanways Carriers SA",
-          "type": "company"
-        },
-        {
-          "name": "Olympos Trading Corp",
-          "type": "company"
-        },
-        {
-          "name": "Pelagos Sea Shipping Ltd",
-          "type": "company"
-        },
-        {
-          "name": "Pelagos Sea Transport Ltd",
-          "type": "company"
-        },
-        {
-          "name": "Seaworld Maritime Ltd",
-          "type": "company"
-        },
-        {
-          "name": "Standard Ocean Carriers SA",
-          "type": "company"
-        },
-        {
-          "name": "T Kokkinos",
-          "type": "person",
-          "desc": "According to Lloyd's Intelligence, Kokkinos was the Chief Marine Superintendent at Laurel Sea Transport."
-        },
-
-
-        { "name": "L Mantzaris",
-          "type": "person",
-          "desc": "Mantzaris was the operations director of Laurel Sea Transport.",
-          "children":[
-            {
-              "name": "Loucas Mantzaris",
-              "type": "alias",
-              "desc": "L Mantzaris might Loucas/Lukas Mantzaris."
-            }
-          ]
+  [
+      {
+        "name": "Mare Shipping",
+        "type": "company",
+        "desc": "Mare Shipping was the registered owner of the Prestige since 19xx"
+      },
+      {
+        "name": "Universe Maritime",
+        "type": "company",
+        "desc": "Universe Maritime was the group owner of the Prestige in 19xx and then again when the ship sank",
+        "children": [
+          {
+            "name": "George Alevizos",
+            "type": "person",
+            "desc": "He was the technical director at Universe."
           },
-        {
-          "name": "Kadia Lines Ltd",
-          "type": "company"
-        },
-        {
-          "name": "Archipelagos Sea Carriers Ltd",
-          "type": "company",
-          "size": 3000
-
-        },
-
-        {
-          "name": "Arkadia Lines",
-          "type": "company",
-          "size": 3000,
-          "children": [
-              {
-                "name": "Filia Maritime",
-                "type": "company"
-              },
-
-              {
-                "name": "Freeways Shipping",
-                "type": "company"
-              },
-
-              {
-                "name": "Vytina Maritime Shipping Co",
-                "type": "company"
-              }
-
-          ]
-        },
-        {
-          "name": "Atlantic Carriers SA",
-          "type": "company",
-          "size": 3000
-        },
-        {
-          "name": "B Paraskevopoulos",
-          "type": "person",
-          "desc": "Catering Director/Manager of Laurel Sea Transport",
-          "size": 2000
-        },
-
-        {
-          "name": "Effie Coulouthros",
-          "type": "person",
-          "desc":"According to IHS, E Coulouthros is the Chairman of Laurel Sea Transport",          
-          "children": [
-            {
-              "name" : "John Anthony Coulouthros",
-              "type" : "person",
-              "desc" : "John, a shipping magnate himself, is the father of Effie Coulouthros. He died in 19xx. ",
-              "children": [
+          {
+            "name": "Aquatic Princess Shipping",
+            "type": "company"
+          },
+          {
+            "name": "Arcadia Navigation Inc",
+            "type": "company"
+          },
+          {
+            "name": "Aroania Shipping Co Ltd",
+            "type": "company"
+          },
+          {
+            "name": "Calisto Holdings Inc",
+            "type": "company"
+          },
+          {
+            "name": "Freedom Navigation",
+            "type": "company"
+          },
+          {
+            "name": "Gardenia Shipping",
+            "type": "company"
+          },
+          {
+            "name": "Global Seatrade Shipping",
+            "type": "company"
+          },
+          {
+            "name": "Jupiter Shipping",
+            "type": "company"
+          },
+          {
+            "name": "Lancer",
+            "type": "company"
+          },
+          {
+            "name": "Malone Navigation",
+            "type": "company"
+          },
+          {
+            "name": "Mare Shipping",
+            "type": "company"
+          },
+          {
+            "name": "Nakina Marine",
+            "type": "company"
+          },
+          {
+            "name": "Nostos",
+            "type": "company"
+          },
+          {
+            "name": "Palime Navigation",
+            "type": "company"
+          },
+          {
+            "name": "Sea Grace",
+            "type": "company"
+          },
+          {
+            "name": "Thunder Maritime",
+            "type": "company"
+          },
+          {
+            "name": "Vista Maritime",
+            "type": "company"
+          }
+          
+        ]
+      },
+      {
+        "name": "Laurel Sea Transport",
+        "type": "company",
+        "size":6000,
+        "desc": "The company is also known as Laurel Sea Transport Naftiki Eteria",
+        "children": [
                 {
-                  "name": "Uraine J Coulouthros",
+                  "name": "Coral Sea Shipping Co Ltd",
+                  "type": "company"
+                },
+
+                {
+                  "name": "Cyclades Sea Transport Ltd",
+                  "type": "company"
+                },
+
+                {
+                  "name": "Valdoro Compania Naviera SA",
+                  "type": "company"
+                },
+                {
+                  "name": "Marinsigne Armadora SA",
+                  "type": "company"
+                },
+                {
+                  "name": "Neptunea Astro Oceanico SA",
+                  "type": "company"
+                },
+                {
+                  "name": "Oceanways Carriers SA",
+                  "type": "company"
+                },
+                {
+                  "name": "Olympos Trading Corp",
+                  "type": "company"
+                },
+                {
+                  "name": "Pelagos Sea Shipping Ltd",
+                  "type": "company"
+                },
+                {
+                  "name": "Pelagos Sea Transport Ltd",
+                  "type": "company"
+                },
+                {
+                  "name": "Seaworld Maritime Ltd",
+                  "type": "company"
+                },
+                {
+                  "name": "Standard Ocean Carriers SA",
+                  "type": "company"
+                },
+                {
+                  "name": "T Kokkinos",
                   "type": "person",
-                  "desc": "Uraine is the wife of John Coulouthros.",
+                  "desc": "According to Lloyd's Intelligence, Kokkinos was the Chief Marine Superintendent at Laurel Sea Transport."
+                },
+                { 
+                  "name": "L Mantzaris",
+                  "type": "person",
+                  "desc": "Mantzaris was the operations director of Laurel Sea Transport.",
+                  "children":[
+                      {
+                        "name": "Loucas Mantzaris",
+                        "type": "alias",
+                        "desc": "L Mantzaris might Loucas/Lukas Mantzaris."
+                      }
+                    ]
+                },
+                {
+                  "name": "Kadia Lines Ltd",
+                  "type": "company"
+                },
+                {
+                  "name": "Archipelagos Sea Carriers Ltd",
+                  "type": "company",
+                  "size": 3000
+                },
+
+                {
+                  "name": "Arkadia Lines",
+                  "type": "company",
+                  "size": 3000,
+                  "description":"According to IHS, Arkadia lines has an address similar to Laurel Sea Transport. At the same time, IHS also lists a different Laurel Sea Transport as a subsidiary of Arkadia.",
+                  "children": [
+                      {
+                        "name": "Filia Maritime",
+                        "type": "company"
+                      },
+
+                      {
+                        "name": "Megistanas Shipping",
+                        "type": "company"
+                      },
+
+                      {
+                        "name": "Naxos Shipping",
+                        "type": "company"
+                      },
+
+                      {
+                        "name": "Paros Shipping",
+                        "type": "company"
+                      },
+
+                      {
+                        "name": "Poseidon Express II NE",
+                        "type": "company"
+                      },
+
+                      {
+                        "name": "Samaina Shipping",
+                        "type": "company"
+                      },
+
+                      {
+                        "name": "Vytina Maritime Shipping Co",
+                        "type": "company"
+                      },
+                      {
+                        "name": "Apollo Sea Transport",
+                        "type": "company"
+                        }
+
+
+                  ]
+                },
+                {
+                  "name": "Atlantic Carriers SA",
+                  "type": "company",
+                  "size": 3000
+                },
+                {
+                  "name": "B Paraskevopoulos",
+                  "type": "person",
+                  "desc": "Catering Director/Manager of Laurel Sea Transport",
+                  "size": 2000
+                },
+
+                {
+                  "name": "Effie Coulouthros",
+                  "type": "person",
+                  "desc":"According to IHS, E Coulouthros is the Chairman of Laurel Sea Transport",          
                   "children": [
                     {
-                      "name": "Urania Coulouthros",
-                      "type": "alias"
+                      "name" : "John Anthony Coulouthros",
+                      "type" : "person",
+                      "desc" : "John, a shipping magnate himself, is the father of Effie Coulouthros. He died in 1981.",
+                      "children": [
+                        {
+                          "name": "Uraine J Coulouthros",
+                          "type": "person",
+                          "desc": "Uraine is the wife of John Coulouthros.",
+                          "children": [
+                            {
+                              "name": "Urania Coulouthros",
+                              "type": "alias"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Nikolaus Coulouthros-Embiricos",
+                          "type": "person",
+                          "desc": "Nikolaus is John's brother and the two together formed Coulouthros Shipping Ltd. in 1951.",
+                          "children": [
+                            {
+                              "name": "Coulouthros Ltd.",
+                              "type": "company",
+                              "desc": "The company formed by John and Nikolaus, brothers belonging to the famous Coulouthros shipping dynasty.",
+                              "children": [
+                                {
+                                  "name": "B N Coulouthros-Embiricos",
+                                  "type": "person",
+                                  "desc": "Bazil Nikolaus Coulouthros-Embiricos, possibly the son of Nikolaus Coulouthros-Embiricos."
+                                },
+                                {
+                                  "name": "CL Louloudis",
+                                  "type": "person",
+                                  "desc": "CL Louloudis is a director of Coulouthros Ltd."
+                                },
+                                {
+                                  "name": "JF Clarkson",
+                                  "type": "person",
+                                  "desc": "JF Clarkson is a director of Coulouthros Ltd."
+                                },
+
+                                {
+                                  "name": "MJ Baker-Harber",
+                                  "type": "person",
+                                  "desc": "MJ Baker-Harber is a director of Coulouthros Ltd."
+                                },
+
+                                {
+                                  "name": "N B Maroulis",
+                                  "type": "person",
+                                  "desc": "N B Maroulis is a director of Coulouthros Ltd."
+                                },
+
+                                {
+                                  "name": "Michael Baker-Harber",
+                                  "type": "person",
+                                  "desc": "Michael Baker-Harber is the lawyer of Coulouthros Ltd."
+                                },
+                                {
+                                  "name": "Aegean Bulk Transports SA",
+                                  "type": "company"
+                                },
+                                {
+                                  "name": "Aegean Sea Traders",
+                                  "type": "company"
+                                },
+                                {
+                                  "name": "Aegean Sea Transports SA",
+                                  "type": "company"
+                                },
+                                {
+                                  "name": "Aegean Seaways Co SA",
+                                  "type": "company"
+                                },
+                                {
+                                  "name": "Astrocielo Neptunea",
+                                  "type": "company"
+                                },
+                                {
+                                  "name": "Cerro Guaca",
+                                  "type": "company"
+                                },
+                                {
+                                  "name": "Fairseas Ocean",
+                                  "type": "company"
+                                },
+                                {
+                                  "name": "Fidelity Tankers",
+                                  "type": "company"
+                                },
+                                {
+                                  "name": "Financiera Valenciana",
+                                  "type": "company"
+                                },
+                                {
+                                  "name": "Mariner Shipping",
+                                  "type": "company"
+                                },
+                                {
+                                  "name": "Marmadura Naviera",
+                                  "type": "company"
+                                },
+                                {
+                                  "name": "Montemar Shipping Agency",
+                                  "type": "company"
+                                },
+                                {
+                                  "name": "Ocean Star Tankers",
+                                  "type": "company"
+                                },
+                                {
+                                  "name": "Overseas Oil Transports",
+                                  "type": "company"
+                                },
+                                {
+                                  "name": "Pacific Carriers",
+                                  "type": "company"
+                                },
+                                {
+                                  "name": "Peerless",
+                                  "type": "company"
+                                },
+                                {
+                                  "name": "Pelham Holdings",
+                                  "type": "company"
+                                },
+                                {
+                                  "name": "Porto Nacional",
+                                  "type": "company"
+                                },
+                                {
+                                  "name": "Portway Shipping",
+                                  "type": "company"
+                                },
+                                {
+                                  "name": "Proctor Shipping",
+                                  "type": "company"
+                                },
+                                {
+                                  "name": "Quadrant Shipping",
+                                  "type": "company"
+                                },
+                                {
+                                  "name": "Riff Shipping",
+                                  "type": "company"
+                                },
+                                {
+                                  "name": "Sealanes Tankers",
+                                  "type": "company"
+                                },
+                                {
+                                  "name": "Seastream Shipping",
+                                  "type": "company"
+                                },
+                                {
+                                  "name": "Seaward Shipping",
+                                  "type": "company"
+                                },
+                                {
+                                  "name": "Taramar Shipping",
+                                  "type": "company"
+                                },
+                                {
+                                  "name": "Tower",
+                                  "type": "company"
+                                }
+
+
+                              ]
+                            }
+                          ]
+                        }
+                      ]            
+                    },
+                    {
+                      "name": "Effie Coulouthros Paraskevopoulos",
+                      "type": "alias",
+                      "desc": "This version of Effie's name appears on the Panamanian company registry.",
+                      "children": [
+                        {
+                          "name": "Atlantica Compania Comercial",
+                          "type": "company",
+                          "desc": "The Panamanian company has multiple links to the Coulouthros family. While Effie is the Treasurer and Secretary of the company, her father is the President."
+                        }
+                      ]
                     }
                   ]
                 }
-              ]            
-            },
-            {
-              "name": "Effie Coulouthros Paraskevopoulos",
-              "type": "alias",
-              "desc": "This version of Effie's name appears on the Panamanian company registry.",
-              "children": [
-                {
-                  "name": "Atlantica Compania Comercial",
-                  "type": "company",
-                  "desc": "The Panamanian company has multiple links to the Colouthros family. While Effie is the Treasurer and Secretary of the company, her father is the President."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-}
-]
+            ]
+      }
+  ]
 }
