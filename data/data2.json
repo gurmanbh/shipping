@@ -260,6 +260,19 @@
                         "type": "company"
                       },
                       {
+                        "name": "Davia Shipping",
+                        "type": "company"
+                      },
+                      {
+                        "name": "Dimitrios Express Shipping",
+                        "type": "company"
+                      },
+                      {
+                        "name": "J Pandelidis",
+                        "type": "person",
+                        "desc": "Pandelidis is the managing director of Arkadia."
+                      },
+                      {
                         "name": "Apollo Sea Transport",
                         "type": "company"
                       }
@@ -463,8 +476,25 @@
                         {
                           "name": "Atlantica Compania Comercial",
                           "type": "company",
-                          "desc": "The Panamanian company has multiple links to the Coulouthros family. While Effie is the Treasurer and Secretary of the company, her father is the President."
-                        }
+                          "desc": "The Panamanian company has multiple links to the Coulouthros family. While Effie is the Treasurer and Secretary of the company, her father is the President.",
+                          "children":[
+                          {
+                            "name": "Christos Anagnostou",
+                            "type": "person",
+                            "desc": "Anagnostou is on the Board of directors of Atlantica Compania Comercial."
+                          },
+                          {
+                            "name": "Christy G Peters",
+                            "type": "person",
+                            "desc": "Peters was a 'subscriber' of Atlantica Compania Comercial."
+                          },
+                          {
+                            "name": "Roselyn Silkes",
+                            "type": "person",
+                            "desc": "Peters was a 'subscriber' of Atlantica Compania Comercial."
+                          }
+                        ]
+                      }
                       ]
                     }
                   ]
