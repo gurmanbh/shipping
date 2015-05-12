@@ -1,0 +1,47 @@
+{
+  "name": "Laurel Sea Transport",
+  "type": "company",
+  "children": [
+        {
+          "name": "Archipelagos Sea Carriers Ltd",
+          "type": "company",
+          "size": 3000
+
+        },
+
+        {
+          "name": "Arkadia Lines",
+          "type": "company",
+          "size": 3000
+        },
+        {
+          "name": "Atlantic Carriers SA",
+          "type": "company",
+          "size": 3000
+        },
+        {
+          "name": "B Paraskevopoulos",
+          "type": "person",
+          "desc": "Catering Director/Manager of Laurel Sea Transport",
+          "size": 2000
+        },
+
+        {
+          "name": "Effie Coulouthros",
+          "type": "person",
+          "desc":"According to IHS, E Coulouthros is the Chairman of Laurel Sea Transport",          "children": [
+            {
+              "name": "Effie Coulouthros Paraskevopoulos",
+              "type": "alias",
+              "children": [
+                {
+                  "name": "Atlantica Compania Comercial",
+                  "type": "company",
+                  "desc": "Effie is on the board of Atlantica Compania Comercial"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+}
