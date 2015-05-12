@@ -4,13 +4,13 @@
 		return s[0].toUpperCase() + s.slice(1);
 	}
 
-	var width = 960,
-	    height = 500,
+	var width = 1080,
+	    height = 800,
 	    root;
 
 	var force = d3.layout.force()
-	    .linkDistance(100)
-	    .charge(-120)
+	    .linkDistance(150)
+	    .charge(-200)
 	    .gravity(.05)
 	    .size([width, height])
 	    .on("tick", tick);
@@ -116,6 +116,7 @@
 	      // : 
 	      return d.type == "company" ? "#fd8d3c" // leaf node
 	      : d.type == "person" ? "#00FF05"
+	      : d.type == "ship" ? "#FCF700"
 	      : "#2F009F";
 	}
 
