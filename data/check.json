@@ -2,43 +2,24 @@
   "name": "The Prestige",
   "type": "ship",
   "size": 3000,
-  "desc": "Prestige is the oil tanker that sank at the coast of Spain in 2002",
+  "desc": "Prestige is the ship that sank at the coast of Spain in 19xx",
   "children":
   [
-        {
-          "name": "Mare Shipping",
-          "type": "company",
-          "desc": "Mare Shipping was the registered owner of the Prestige since 19xx"
-        },
-        {
-          "name": "Universe Maritime",
-          "type": "company",
-          "desc": "Universe Maritime was the group owner of the Prestige in 1989 and then again when the ship sank.",
-          "children": [
-          {
-            "name": "Golden Destiny",
-            "type": "ship",
-            "desc": "On October 5th 2002, the Golden Destiny (IMO no. 8014265), a crude oil tanker, was inspected by port state control authorities in Elefsis Greece. In their report, inspectors listed structural safety issues, including hull corrosion, as well as unsatisfactory fire safety measures, two issues also noted by Kostazos before he resigned his captaincy. The vessel, which has since been broken up, was owned by the same company as the Prestige, Universe Maritime Limited."
-          },
-
-          {
-            "name": "Menalon",
-            "type": "ship",
-            "desc": "On May 28th 2001, the Menalon (7378690), a dry bulk carrier flying the red and blue stars and squares of Panama, was detained in the port of Naples after inspectors found it was not safe for the ship to sail. It is unclear when in 2003 the Menalon changed hands from the Coulouthros owned Universe Maritime Ltd to Elko Marine Management, but after a further detention within the Indian Ocean MOU in 2004—with inspectors still noting issues with the structural integrity of the vessel, the Menalon moved on to Tokyo MOU waters, where vessels are allowed to continue sailing regardless of the number of times they have been  detained."
-          },
-
+      {
+        "name": "Mare Shipping",
+        "type": "company",
+        "desc": "Mare Shipping was the registered owner of the Prestige since 19xx"
+      },
+      {
+        "name": "Universe Maritime",
+        "type": "company",
+        "desc": "Universe Maritime was the group owner of the Prestige in 19xx and then again when the ship sank",
+        "children": [
           {
             "name": "George Alevizos",
             "type": "person",
             "desc": "He was the technical director at Universe."
           },
-
-          {
-            "name": "Michael Margetis",
-            "type": "person",
-            "desc": "Margetis is the Captain/Operation manager of Universe Maritime."
-          },
-
           {
             "name": "Aquatic Princess Shipping",
             "type": "company"
@@ -55,32 +36,26 @@
             "name": "Calisto Holdings Inc",
             "type": "company"
           },
-
           {
             "name": "Freedom Navigation",
             "type": "company"
           },
-
           {
             "name": "Gardenia Shipping",
             "type": "company"
           },
-
           {
             "name": "Global Seatrade Shipping",
             "type": "company"
           },
-
           {
             "name": "Jupiter Shipping",
             "type": "company"
           },
-
           {
             "name": "Lancer",
             "type": "company"
           },
-
           {
             "name": "Malone Navigation",
             "type": "company"
@@ -89,32 +64,26 @@
             "name": "Mare Shipping",
             "type": "company"
           },
-
           {
             "name": "Nakina Marine",
             "type": "company"
           },
-
           {
             "name": "Nostos",
             "type": "company"
           },
-
           {
             "name": "Palime Navigation",
             "type": "company"
           },
-
           {
             "name": "Sea Grace",
             "type": "company"
           },
-
           {
             "name": "Thunder Maritime",
             "type": "company"
           },
-
           {
             "name": "Vista Maritime",
             "type": "company"
@@ -126,7 +95,7 @@
         "name": "Laurel Sea Transport",
         "type": "company",
         "size":6000,
-        "desc": "The company is also known as Laurel Sea Transport Naftiki Eteria.",
+        "desc": "The company is also known as Laurel Sea Transport Naftiki Eteria",
         "children": [
                 {
                   "name": "Coral Sea Shipping Co Ltd",
@@ -177,15 +146,7 @@
                 {
                   "name": "T Kokkinos",
                   "type": "person",
-                  "desc": "According to Lloyd's Intelligence, Kokkinos was the Chief Marine Superintendent at Laurel Sea Transport.",
-                  "children": [
-                     {
-                        "name": "Theodoros Kokkinos",
-                        "type": "alias",
-                        "desc": "T Kokkinos might Theodoros Kokkinos."
-                      }
-
-                  ]
+                  "desc": "According to Lloyd's Intelligence, Kokkinos was the Chief Marine Superintendent at Laurel Sea Transport."
                 },
                 { 
                   "name": "L Mantzaris",
@@ -196,16 +157,6 @@
                         "name": "Loucas Mantzaris",
                         "type": "alias",
                         "desc": "L Mantzaris might Loucas/Lukas Mantzaris."
-                      },
-                      {
-                        "name": "Interocean Carriers Corporation",
-                        "type": "company",
-                        "desc": "Mantzaris was a director at Interocean Carriers Corporation."
-                      },
-                      {
-                        "name": "Valdoro Shipping Company",
-                        "type": "company",
-                        "desc": "Mantzaris was a director at Valdoro Shipping Company."
                       }
                     ]
                 },
@@ -262,7 +213,7 @@
                       {
                         "name": "Apollo Sea Transport",
                         "type": "company"
-                      }
+                        }
 
 
                   ]
@@ -309,8 +260,7 @@
                               "name": "Coulouthros Ltd.",
                               "type": "company",
                               "desc": "The company formed by John and Nikolaus, brothers belonging to the famous Coulouthros shipping dynasty.",
-                              "children": 
-                              [
+                              "children": [
                                 {
                                   "name": "B N Coulouthros-Embiricos",
                                   "type": "person",
@@ -326,16 +276,19 @@
                                   "type": "person",
                                   "desc": "JF Clarkson is a director of Coulouthros Ltd."
                                 },
+
                                 {
                                   "name": "MJ Baker-Harber",
                                   "type": "person",
                                   "desc": "MJ Baker-Harber is a director of Coulouthros Ltd."
                                 },
+
                                 {
                                   "name": "N B Maroulis",
                                   "type": "person",
                                   "desc": "N B Maroulis is a director of Coulouthros Ltd."
                                 },
+
                                 {
                                   "name": "Michael Baker-Harber",
                                   "type": "person",
@@ -449,6 +402,8 @@
                                   "name": "Tower",
                                   "type": "company"
                                 }
+
+
                               ]
                             }
                           ]
