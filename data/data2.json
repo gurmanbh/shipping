@@ -1,3 +1,11 @@
+{ "name": "The Prestige",
+  "type": "ship",
+  "children":
+[
+  {
+  "name": "Universe Maritime",
+  "type": "company"
+},
 {
   "name": "Laurel Sea Transport",
   "type": "company",
@@ -12,7 +20,19 @@
         {
           "name": "Arkadia Lines",
           "type": "company",
-          "size": 3000
+          "size": 3000,
+          "children": [
+              {
+                "name": "Filia Maritime",
+                "type": "company"
+              },
+
+              {
+                "name": "Freeways Shipping",
+                "type": "company"
+              }
+
+          ]
         },
         {
           "name": "Atlantic Carriers SA",
@@ -29,19 +49,23 @@
         {
           "name": "Effie Coulouthros",
           "type": "person",
-          "desc":"According to IHS, E Coulouthros is the Chairman of Laurel Sea Transport",          "children": [
+          "desc":"According to IHS, E Coulouthros is the Chairman of Laurel Sea Transport",          
+          "children": [
             {
               "name": "Effie Coulouthros Paraskevopoulos",
               "type": "alias",
+              "desc": "This version of Effie's name appears on the Panamanian company registry.",
               "children": [
                 {
                   "name": "Atlantica Compania Comercial",
                   "type": "company",
-                  "desc": "Effie is on the board of Atlantica Compania Comercial"
+                  "desc": "The Panamanian company has multiple links to the Colouthros family. While Effie is the Treasurer and Secretary of the company, her father is the President."
                 }
               ]
             }
           ]
         }
       ]
+}
+]
 }
