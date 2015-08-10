@@ -1,3 +1,3 @@
-# sample-proj
+# Network Data Viz
 
-just something that I use to set up projects on my computer
+A network analysis visualization for a shipping magnate.
